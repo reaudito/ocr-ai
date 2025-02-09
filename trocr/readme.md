@@ -1,5 +1,9 @@
 # candle-trocr
 
+```bash
+cargo run -p trocr --release -- --which large --image trocr/src/assets/trocr.png
+```
+
 `TrOCR` is a transformer OCR Model. In this example it is used to
 transcribe image text. See the associated [model
 card](https://huggingface.co/microsoft/trocr-base-printed) for details on
@@ -31,7 +35,7 @@ THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
 ```
 
 
-cargo run -p trocr --release -- --which large --image trocr/assets/trocr.png
+
 
 ## hf_hub
 
