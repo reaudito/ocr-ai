@@ -6,7 +6,7 @@ use opencv::{
 
 fn main() -> Result<()> {
     // Load the text image
-    let img = imgcodecs::imread("image/a.jpg", imgcodecs::IMREAD_COLOR)?;
+    let img = imgcodecs::imread("image/c.jpg", imgcodecs::IMREAD_COLOR)?;
 
     // Convert to grayscale
     let mut gray = Mat::default();
