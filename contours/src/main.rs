@@ -37,7 +37,7 @@ fn main() -> Result<()> {
     // Save each row as a separate image
     for (i, rect) in bounding_boxes.iter().enumerate() {
         let roi = Mat::roi(&img, *rect)?;
-        let filename = format!("row_{}.png", i);
+        let filename = format!("image2/row_{}.png", i);
         imgcodecs::imwrite(&filename, &roi, &Vector::new())?;
         println!("Saved {}", filename);
     }
