@@ -1,0 +1,10 @@
+[package]
+name = "ocr"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tesseract-rs = {workspace = true}
+image = {workspace = true}
+strsim = "0.11"
+

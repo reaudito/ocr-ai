@@ -1,0 +1,12 @@
+[package]
+name = "image-depth"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rerun = {workspace = true}
+image = {workspace = true}
+kornia = { workspace = true, features = ["gstreamer"] }
+ndarray = {workspace = true}
+argh = {workspace = true}
+ctrlc = "3.4.4"

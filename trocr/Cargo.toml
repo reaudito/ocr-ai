@@ -1,0 +1,17 @@
+[package]
+name = "trocr"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.95"
+candle-core = "0.8.2"
+candle-nn = "0.8.2"
+candle-transformers = "0.8.2"
+clap = {version= "4.5.28", features = ["derive"] }
+hf-hub = "0.4.1"
+image.workspace = true
+serde = "1.0.217"
+serde_json = "1.0.138"
+tokenizers = "0.21.0"
+

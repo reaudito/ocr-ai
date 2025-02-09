@@ -1,0 +1,12 @@
+[workspace]
+members = ["image-depth", "ocr", "position-data", "trocr"]
+
+resolver = "2"
+
+[workspace.dependencies]
+rerun = "0.22.0"
+image = "0.25"
+kornia = "0.1.8"
+ndarray = "0.16.1"
+argh = "0.1.13"
+tesseract-rs = "0.1.19"
