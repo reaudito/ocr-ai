@@ -1,5 +1,5 @@
 [workspace]
-members = [ "contours","image-depth", "ocr", "position-data", "sentences", "trocr"]
+members = [ "contours", "tesseract","image-depth", "ocr", "position-data", "sentences", "trocr", "extract-data"]
 
 resolver = "2"
 

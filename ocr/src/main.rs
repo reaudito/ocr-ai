@@ -39,7 +39,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     api.set_variable("tessedit_pageseg_mode", "1")?;
 
     // Load and prepare image data
-    let (image_data, width, height) = load_test_image("image/a.jpg")?;
+    let (image_data, width, height) = load_test_image("image/polling-data/line_19.png")?;
 
     // Share image data across threads
     let image_data = Arc::new(image_data);

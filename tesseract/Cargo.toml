@@ -1,0 +1,10 @@
+[package]
+name = "tesseract"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rusty-tesseract = "1.1.10"
+image.workspace = true
+imageproc = "0.25.0"
+opencv = "0.94.2"

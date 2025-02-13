@@ -79,7 +79,7 @@ fn main() -> Result<()> {
     // Save each merged line as an image
     for (i, line_rect) in lines.iter().enumerate() {
         let roi = Mat::roi(&img, *line_rect)?;
-        let filename = format!("lines_c/line_{}.png", i);
+        let filename = format!("lines/lines_c/line_{}.png", i);
         imgcodecs::imwrite(&filename, &roi, &Vector::new())?;
         println!("Saved {}", filename);
     }
